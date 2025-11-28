@@ -15,7 +15,7 @@ public class ActionMapper
 
     // Cardboard Trigger
     private static bool GetCardboardTrigger() {
-        return Google.XR.Cardboard.Api.IsTriggerPressed;
+        return true;
     }
 
     // Occulus Trigger
